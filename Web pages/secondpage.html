@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title> second webpage </title>
+       <link rel="stylesheet" href="Css/Styles2.css">
+   </head>
+   <body>
+    <button class="dark-mode"onclick="myFunction()">Dark-mode</button>
+       <p>
+           hello, this is the second webpage about colours. <br>
+           In here, we talk about the colour green</p>
+           <img src="Colours/green.jpg" alt="the color green">
+           <button class="previous" onclick="document.location='index.html'">previous</button>
+           <script>
+            function myFunction(){
+                var element=document.body;
+                element.classList.toggle ("dark-mode");
+            }
+        </script>
+   </body>
+</html>

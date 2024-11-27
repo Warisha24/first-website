@@ -1,0 +1,64 @@
+
+img {
+    width: 300px;
+    height: 300px;
+ }
+ button:hover {
+    background-color: #4CAF50; /* Green */
+color: white;
+ }
+ button {    
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px ;
+    transition-duration: 0.4s;
+    background-color:white;
+    color:black;
+ }
+ a{
+    text-decoration: none;
+ }
+ table {
+    border: 2px solid black;
+ }
+ 
+ .dark-mode {
+   background: black;
+   color: white;
+ }
+   .dark-mode td {
+      border: 1px solid white;
+      background-color: black;
+      color: white; }
+ h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+.dark-mode table {
+   border: solid white;
+   background-color: black;
+   color: white;
+}
+.dark-mode a:link{
+   color: lightblue;
+}
+.dark-mode a:visited{
+   color: green;
+}
+
+body{
+  background: linear-gradient(rgb(113, 243, 113), rgb(241, 99, 241));
+}
+.dark-mode button {
+   color: white;
+   background-color:black;
+}
+.dark-mode button:hover {
+   background-color: #4CAF50;
+   color: white;
+}
