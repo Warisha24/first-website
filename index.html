@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html>
+    <meta name="viewport" content="width=device-width"; initial-scale="1.0">
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+    <head>
+        <meta charset="utf-8">
+
+        <title>my first website</title>
+        <link rel="icon" type="image/jpg" href="Colours/clover.JPG">
+    
+        <link rel="stylesheet" href="Css/styles.css">
+
+    </head>
+
+    <body>
+<h1>Colours are wonderful</h1>
+<p>
+    <button  onclick="myFunction()">Dark-mode</button>
+    <br>
+    <br>
+        this website is all about different colours, <a href="https://en.wikipedia.org/wiki/Color"> this website </a> will tell you more about colours 
+</p>
+<hr>
+<img src="Colours/color.jpg" alt= "picture of colour">
+<table><tr>
+    <td>All the colours</td>
+    <td>links</td>
+</tr>
+<tr>
+    <td>green</td>
+    <td><a href="secondpage.html">second page: green</a></td>
+</tr>
+</table>
+<button class= "next" onclick="document.location='secondpage.html'">next</button>
+<script>
+    function myFunction() {
+        var element=document.body;
+        element.classList.toggle ("dark-mode");
+    }
+</script>
+<button class="print" onclick="window.print()"> print page
+</button>
+    </body>
+</html>
